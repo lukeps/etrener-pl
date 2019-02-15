@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Logowanie">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint=" E-mail"
+        android:textColorHint="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/haslo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="214dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Hasło"
+        android:textColorHint="@android:color/black"/>
+
+    <Button
+        android:id="@+id/przyciskrejestracja"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:text="Rejestracja"
+        android:background="@drawable/przycisk"/>
+
+    <TextView
+        android:id="@+id/logowanie"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="182dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Posiadasz już konto ? Zaloguj się tutaj."/>
+</RelativeLayout>
+
+

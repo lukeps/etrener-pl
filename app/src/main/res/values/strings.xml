@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">eTrener</string>
+    <string name="o_nas">O nas</string>
+    <string name="bmiii">>16 - wygłodzenie\n\n
+        16 - 16.99 - wychudzenie\n\n
+17 - 18.49 - niedowaga\n\n
+18.5 - 24.99 - wartość prawidłowa\n\n
+25 - 29.99 - nadwaga\n\n
+30 - 34.99 - I stopień otyłości\n\n
+35 - 39.99 - II stopień otyłości\n\n
+powyżej 40 - otyłość skrajna\n\n</string>
+
+</resources>
