@@ -1,10 +1,1367 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".GotowaDieta">
+    android:id="@+id/scrollView"
+    android:layout_height="wrap_content"
 
-</LinearLayout>
+
+    tools:context=".GotowyPlanTreningowy">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+
+
+
+
+        <TextView
+            android:id="@+id/tytul"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="32dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+
+            android:text="Indywidualny plan żywieniowy"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="23dp"/>
+
+
+
+        <TextView
+            android:id="@+id/data3"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-82dp"
+            android:layout_marginTop="-13dp"
+            android:textColor="@android:color/black"
+            android:text="Od:"
+
+            android:textSize="14dp"/>
+
+
+        <TextView
+            android:id="@+id/data5"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="82dp"
+            android:layout_marginTop="-19dp"
+            android:textColor="@android:color/black"
+            android:text="Do:"
+
+            android:textSize="14dp"/>
+
+
+
+        <TextView
+            android:id="@+id/datadieta"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-82dp"
+            android:layout_marginTop="-1dp"
+            android:textColor="@android:color/black"
+            android:text="Twój Plan Treningowy"
+
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/datadieta1"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="82dp"
+            android:layout_marginTop="-20dp"
+            android:text="Twój Plan Treningowy"
+            android:textColor="@android:color/black"
+
+            android:textSize="14dp" />
+
+
+
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="46dp"
+            android:layout_marginBottom="52dp"
+            android:text="Dzień 1"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="26dp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/posilek1"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek I  "
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/godzinasniadanie"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/sniadanie1"
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+
+        <TextView
+            android:id="@+id/posilek2"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek II "
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/godzinadrugiesniadanie"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+        <TextView
+            android:id="@+id/sniadaniedrugie1"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/posilek3"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek III"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/godzinaobiad"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+        <TextView
+            android:id="@+id/obiad1"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/posilek4"
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek IV  "
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/godzinapodwieczorek"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+
+        <TextView
+            android:id="@+id/podwieczorek1"
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/posilek5"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek V "
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/godzinakolacja"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+        <TextView
+            android:id="@+id/kolacja1"
+            android:layout_width="352dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="46dp"
+            android:layout_marginBottom="52dp"
+            android:text="Dzień 2"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="26dp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/posilek1a"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek I  "
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/godzinasniadanie2"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/sniadanie2"
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+
+        <TextView
+            android:id="@+id/posilek2a"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek II "
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/godzinadrugiesniadanie2"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+        <TextView
+            android:id="@+id/sniadaniedrugie2"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/posilek3a"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek III"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/godzinaobiad2"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+        <TextView
+            android:id="@+id/obiad2"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/posilek4a"
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek IV  "
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/godzinapodwieczorek2"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+
+        <TextView
+            android:id="@+id/podwieczorek2"
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/posilek5a"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek V "
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/godzinakolacja2"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+        <TextView
+            android:id="@+id/kolacja2"
+            android:layout_width="352dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="46dp"
+            android:layout_marginBottom="52dp"
+            android:text="Dzień 3"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="26dp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/posilek1c"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek I  "
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/godzinasniadanie3"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/sniadanie3"
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+
+        <TextView
+            android:id="@+id/posilek2c"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek II "
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/godzinadrugiesniadanie3"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+        <TextView
+            android:id="@+id/sniadaniedrugie3"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/posilek3c"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek III"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/godzinaobiad3"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+        <TextView
+            android:id="@+id/obiad3"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/posilek4c"
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek IV  "
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/godzinapodwieczorek3"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+
+        <TextView
+            android:id="@+id/podwieczorek3"
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/posilek5c"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek V "
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/godzinakolacja3"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+        <TextView
+            android:id="@+id/kolacja3"
+            android:layout_width="352dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="46dp"
+            android:layout_marginBottom="52dp"
+            android:text="Dzień 4"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="26dp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/posilek1d"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek I  "
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/godzinasniadanie4"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/sniadanie4"
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+
+        <TextView
+            android:id="@+id/posilek2d"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek II "
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/godzinadrugiesniadanie4"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+        <TextView
+            android:id="@+id/sniadaniedrugie4"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/posilek3d"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek III"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/godzinaobiad4"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+        <TextView
+            android:id="@+id/obiad4"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/posilek4d"
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek IV  "
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/godzinapodwieczorek4"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+
+        <TextView
+            android:id="@+id/podwieczorek4"
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/posilek5d"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek V "
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/godzinakolacja4"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+        <TextView
+            android:id="@+id/kolacja4"
+            android:layout_width="352dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="46dp"
+            android:layout_marginBottom="52dp"
+            android:text="Dzień 5"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="26dp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/posilek1e"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek I  "
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/godzinasniadanie5"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/sniadanie5"
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+
+        <TextView
+            android:id="@+id/posilek2e"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek II "
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/godzinadrugiesniadanie5"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+        <TextView
+            android:id="@+id/sniadaniedrugie5"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/posilek3e"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek III"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/godzinaobiad5"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+        <TextView
+            android:id="@+id/obiad5"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/posilek4e"
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek IV  "
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/godzinapodwieczorek5"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
+
+        <TextView
+            android:id="@+id/podwieczorek5"
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/posilek5e"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Posiłek V "
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/godzinakolacja5"
+
+
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+        <TextView
+            android:id="@+id/kolacja5"
+            android:layout_width="352dp"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+
+
+
+
+
+
+
+        <Button
+            android:id="@+id/screenshot"
+            android:layout_width="128dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:text="Zapisz"
+            android:background="@drawable/przycisk"/>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

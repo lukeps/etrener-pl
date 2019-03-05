@@ -109,11 +109,10 @@
 
     <TextView
         android:id="@+id/nogi"
-
+        android:layout_marginTop="32dp"
         android:layout_width="352dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="62dp"
         android:text="Nogi : "
         android:textStyle="bold"
         android:textAlignment="center"
@@ -122,14 +121,20 @@
         />
 
 
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
+
         <TextView
             android:id="@+id/opcja2"
 
             android:layout_width="352dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="TextView"
-            android:layout_marginTop="-32dp"
+            android:layout_marginTop="32dp"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -140,7 +145,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="12dp"
-        android:text="TextView"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="16sp" />
@@ -151,7 +155,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="12dp"
-            android:text="TextView"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -161,18 +164,23 @@
             android:layout_width="352dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="32dp"
+            android:layout_marginTop="32dp"
             android:text="Klatka Piersiowa:"
             android:textStyle="bold"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
     <TextView
         android:id="@+id/opcja5"
         android:layout_width="352dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="TextView"
+        android:layout_marginTop="32dp"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="16sp" />
@@ -183,7 +191,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="12dp"
-        android:text="TextView"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="16sp" />
@@ -194,7 +201,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="12dp"
-        android:text="TextView"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="16sp" />
@@ -205,7 +211,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="12dp"
-        android:text="TextView"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="16sp" />
@@ -215,7 +220,7 @@
             android:layout_width="352dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="32dp"
+            android:layout_marginTop="32dp"
             android:text="Brzuch:"
             android:textAlignment="center"
             android:textColor="@android:color/black"
@@ -223,12 +228,17 @@
             android:textSize="20sp"
             />
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
+
     <TextView
         android:id="@+id/opcja9"
         android:layout_width="352dp"
+        android:layout_marginTop="32dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="TextView"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="16sp" />
@@ -239,7 +249,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="12dp"
-            android:text="TextView"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -250,7 +259,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="12dp"
-        android:text="TextView"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="16sp" />
@@ -273,13 +281,18 @@
             android:layout_width="352dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="62dp"
+android:layout_marginTop="32dp"
             android:text="Barki : "
             android:textStyle="bold"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="20sp"
             />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
 
 
         <TextView
@@ -288,8 +301,7 @@
             android:layout_width="352dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="TextView"
-            android:layout_marginTop="-32dp"
+            android:layout_marginTop="32dp"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -300,7 +312,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="12dp"
-            android:text="TextView"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -311,7 +322,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="12dp"
-            android:text="TextView"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -321,18 +331,22 @@
             android:layout_width="352dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="32dp"
+            android:layout_marginTop="32dp"
             android:text="Triceps:"
             android:textStyle="bold"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="20sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
         <TextView
             android:id="@+id/opcja15"
             android:layout_width="352dp"
+            android:layout_marginTop="32dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="TextView"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -343,7 +357,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="12dp"
-            android:text="TextView"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -354,7 +367,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="12dp"
-            android:text="TextView"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -365,7 +377,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="12dp"
-            android:text="TextView"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -375,20 +386,24 @@
             android:layout_width="352dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="32dp"
+            android:layout_marginTop="32dp"
             android:text="Plecy:"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textStyle="bold"
             android:textSize="20sp"
             />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
 
         <TextView
             android:id="@+id/opcja19"
             android:layout_width="352dp"
+            android:layout_marginTop="32dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="TextView"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -399,7 +414,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="12dp"
-            android:text="TextView"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -410,7 +424,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="12dp"
-            android:text="TextView"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -421,7 +434,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="12dp"
-            android:text="TextView"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -431,20 +443,24 @@
             android:layout_width="352dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="32dp"
+            android:layout_marginTop="32dp"
             android:text="Biceps:"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textStyle="bold"
             android:textSize="20sp"
             />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/gradient" />
 
         <TextView
             android:id="@+id/opcja22"
             android:layout_width="352dp"
+            android:layout_marginTop="32dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="TextView"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -455,7 +471,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="12dp"
-            android:text="TextView"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -466,16 +481,20 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="12dp"
-            android:text="TextView"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
 
        <Button
-           android:id="@+id/przycisk12"
-           android:layout_width="wrap_content"
-           android:layout_height="match_parent"
-           android:layout_gravity="center"/>
+        android:id="@+id/screenshot"
+        android:layout_width="128dp"
+           android:layout_marginTop="32dp"
+           android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+           android:layout_gravity="center"
+
+        android:text="Zapisz"
+        android:background="@drawable/przycisk"/>
 
 
 

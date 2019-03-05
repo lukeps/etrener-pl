@@ -54,12 +54,8 @@ public class BMI extends AppCompatActivity {
         try {
 
 
-
             Float wagaFlt = Float.parseFloat(waga.getText().toString());
             Float wzrostMetry = Float.parseFloat(wzrost.getText().toString()) / 100;
-
-
-
 
 
             if (wagaFlt <= 200 && wagaFlt>0 &&  wzrostMetry < 2.3 && wzrostMetry>0) {
@@ -72,13 +68,11 @@ public class BMI extends AppCompatActivity {
             }
 
 
-
             else {
 
                 Toast.makeText(this,"Błędnie podany wzrost lub waga !",Toast.LENGTH_SHORT).show();
             }
         }
-
 
 
         catch ( Exception e) {
@@ -88,16 +82,7 @@ public class BMI extends AppCompatActivity {
         }
 
 
-
-
-
-
-
-
-
-
     }
-
 
 
     private void DobranieBMI(float bmi) {
@@ -141,8 +126,6 @@ public class BMI extends AppCompatActivity {
 
 
         }
-
-
 
         wynik1.setText("Wskaźnik BMI wynosi :" + " " +  String.format("%.2f", bmi));
         wynik2.setText("i oznacza :" + " " + wiadomosc );

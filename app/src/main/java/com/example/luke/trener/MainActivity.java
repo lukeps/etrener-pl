@@ -1,9 +1,15 @@
 package com.example.luke.trener;
 
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.graphics.Color;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
+import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -17,7 +23,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.zip.Inflater;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Dieta   {
 
     private ImageView atlas;
     private ImageView dieta;
@@ -25,9 +31,15 @@ public class MainActivity extends AppCompatActivity {
     private ImageView bmi;
     private ImageView plantreningowy;
     private ImageView listatreningow;
-
     private TextView odczytanieimienia;
     private FirebaseAuth firebaseAuth3;
+    Context ctx = this; // utworzenie zmiennej typu context i przekazanie do niej obecnego kontekstu
+    Dieta obiekt = new Dieta();
+    PlanTreningowy obiekt1 = new PlanTreningowy();
+
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,13 +51,11 @@ public class MainActivity extends AppCompatActivity {
         odczytanieimienia = (TextView)findViewById(R.id.imie);
 
         String odczytaniezaktywnosci = getIntent().getExtras().getString("text");
+
         odczytanieimienia.setText(odczytaniezaktywnosci);
 
-
-
-
-
-
+        obiekt=(Dieta)ctx; //rzutuj obecny kontekst na typ Dieta
+        obiekt1= (PlanTreningowy) ctx;
 
 
 
@@ -61,7 +71,10 @@ public class MainActivity extends AppCompatActivity {
                 dieta.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        OtworzAktywnoscDieta();
+                        obiekt.startFormularza();
+
+
+
                     }
                 });
 
@@ -87,8 +100,7 @@ public class MainActivity extends AppCompatActivity {
         plantreningowy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                OtworzAktywnoscPlanTreningowy();
-
+            obiekt1.preStartFormularza();
             }
         });
 
@@ -188,6 +200,14 @@ public class MainActivity extends AppCompatActivity {
         }
         return true;
     }
+
+
+
+
+
+
+
+
 
 
 
